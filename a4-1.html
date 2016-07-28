@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>网页登录界面</title>
+    <meta name="viewport" content="width=device-width initial-scale=1"/>
+    <style type="text/css">
+        html{
+            font-size:62.5%;
+            font-family:"Microsoft YaHei",sans-serif;
+        }
+        body{
+            margin:0;
+            padding:0;
+        }
+        .one{
+            width:100%;
+            background:#eff0f4;
+            position:relative;
+        }
+
+        .second{
+            width:100%;
+            background:#5ac0ce;
+        }
+        .left{
+            font-size:2rem;
+            position:relative;
+            top:1%;
+            left:1%;
+            color:#fff;
+        }
+        .middle{
+            font-size:2.5rem;
+            position:relative;
+            top:1%;
+            left:45%;
+            color:#fff;
+
+        }
+        .right{
+            font-size:2rem;
+            position:relative;
+            top:2%;
+            left:87.5%;
+            color:#fff;
+
+        }
+        .top{
+            margin-top:1.5rem;
+            background:white;
+            position:relative;
+        }
+        .bottom{
+            margin-top:1rem;
+            margin-bottom:5rem;
+            background:white;
+        }
+        .top img{
+            margin:1rem 0 0 1rem;
+        }
+        .top input{
+            width:95%;
+            text-indent:2rem;
+            font-size:3rem;
+            position:relative;
+            top:-3rem;
+            left:4rem;
+            border:none;
+            border-left:1px solid #eaedee;
+        }
+        .bottom img{
+            margin:1rem 0 0 1rem;
+        }
+        .bottom input{
+            width:95%;
+            font-size:3rem;
+            text-indent:2rem;
+            position:relative;
+            top:-3rem;
+            left:4rem;
+            border:none;
+            border-left:1px solid #eaedee;
+        }
+        .fi{
+            background:#5fc0ce;
+            width:100%;
+            border:none;
+            color:#FFF;
+            font-size:3rem;
+            padding:1rem 0;
+            letter-spacing: 1rem;
+        }
+        .pfi{
+            background:#fff;
+            width:10%;
+            border:none;
+            color:#5fc0ce;
+            font-size:2rem;
+            float:right;
+        }
+    </style>
+</head>
+<body>
+<div class="one">
+    <div class="second">
+        <span class="left">
+            关闭
+        </span>
+        <span class="middle">
+            登录
+        </span>
+        <span class="right">
+            注册
+        </span>
+    </div>
+    <div class="top">
+        <img src="images/4-1.png">
+        <form>
+            <input type="text" name="phone" placeholder="请输入手机号">
+        </form>
+    </div>
+    <div class="bottom">
+        <img src="images/4-2.png">
+        <form>
+            <input type="password" name="password" placeholder="请输入密码">
+        </form>
+    </div>
+    <form>
+        <input class="fi" type="submit" value="登录">
+        </input>
+    </form>
+    <p>
+    <form>
+        <input class="pfi" type="submit" value="忘记密码?">
+        </input>
+    </form>
+    </p>
+</div>
+</body>
+</html>
